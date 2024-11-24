@@ -1,0 +1,20 @@
+{
+  "name": "art-random",
+  "version": "1.0.0",
+  "description": "A fun project built on top of nekos.best API. Shows random anime art from the web along with it's source",
+  "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rakesh Basumatary",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  }
+}
