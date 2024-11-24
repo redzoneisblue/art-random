@@ -20,7 +20,6 @@ app.get('/show', async (req, res) => {
     let tag = req.query.tag;
     const response = await fetch(`https://nekos.best/api/v2/${tag}`);
     data = await response.json();
-    console.log(data.results[0].url);
     res.render('index.ejs', data);
 });
 

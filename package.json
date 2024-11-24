@@ -4,7 +4,7 @@
   "description": "A fun project built on top of nekos.best API. Shows random anime art from the web along with it's source",
   "main": "index.js",
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   },
   "scripts": {
     "start": "node index.js",
