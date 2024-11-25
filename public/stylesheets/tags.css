@@ -46,6 +46,7 @@ body {
 }
 main {
     width: 100vw;
+    height: fit-content;
     padding: 0 3rem;
     display: flex;
     flex-wrap: wrap;
@@ -73,6 +74,8 @@ main .tag {
         margin: 2rem;
     }
     #heading {
+        text-align: center;
+        margin: 0 2rem;
         font-size: 1rem;
         color: black;
     }
@@ -86,5 +89,13 @@ main .tag {
         justify-content: center;
         border-radius: 5px;
         background-color: aliceblue;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 501px) {
+    #heading {
+        text-align: center;
+        font-size: 1.5rem;
+        color: black;
     }
 }

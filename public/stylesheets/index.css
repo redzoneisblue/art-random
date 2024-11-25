@@ -47,7 +47,11 @@ a {
 
 @media (max-width: 500px) {
     img {
-        max-width: 300px;
+        max-width: 270px;
+        max-height: 780px;
+    }
+    .box {
+        padding: 1rem;
     }
 }
 
